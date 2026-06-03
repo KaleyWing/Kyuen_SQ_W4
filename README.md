@@ -1,10 +1,17 @@
 # Week 4 : Multi-File Structure -- The Pink Mall
 
-## What This Example Demonstrates
-
 ## Setup and Interaction Instructions
 
-To run the sketch locally, open `index.html` in Google Chrome using Live Server.
+To run the sketch locally:
+Open `index.html` in Google Chrome using Live Server.
+Open index.html in a browser (or run a local server with VS Code
+Live Server, Python's http.server, etc.).
+
+To play:
+Read the story text in the pink card at the top of the canvas.
+Click a button to make your choice.
+Work through two choice screens to reach one of 8 possible endings.
+Click "Play again" on any ending screen to re-play.
 
 ## Assets
 
