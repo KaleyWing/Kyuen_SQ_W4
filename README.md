@@ -1,4 +1,4 @@
-# Week 4 Example 1: Multi-File Structure + Rock Paper Scissors
+# Week 4 : Multi-File Structure -- The Pink Mall
 
 ## What This Example Demonstrates
 
@@ -6,19 +6,12 @@
 
 To run the sketch locally, open `index.html` in Google Chrome using Live Server.
 
-Click **Rock**, **Paper**, or **Scissors** to play a round against the NPC. Click **Play Again** to reset.
-
-**Opening the Chrome Console**
-
-- **Windows:** Press `F12` or `Ctrl + Shift + J`, then click the **Console** tab
-- **Mac:** Press `Cmd + Option + J`
-
-The console will show any errors in your sketch.
-
 ## Assets
 
-No external assets used. All visuals are generated with p5.js.
+| File                                         | Source                                                           |
+| -------------------------------------------- | ---------------------------------------------------------------- |
+| `assets/image/Pink_Mall.webp`                | Pauliukevich, Window mall stock illustrations — Dreamstime.com   |
 
 ## References
 
-N/A
+[1] Pauliukevich. Pink Mall storefront https://www.google.com/search?sca_esv=a82350b6429375af&rlz=1C5CHFA_enCA985CA987&sxsrf=ANbL-n6JInpXUnLvaOveYgWh10cPqemHOA:1780522032042&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3o6iwGk6Iv1tRbZIBNIVs-6YKj3ieLLpE5n_AQ7knvny0NyDG6rqjTFTpNuplrR82AsgQCMWNDc6Na8WxinV__MsJI6K5xQw6lQmTArT-sr6Qk-3tHuDaNa9lluMJM8OYDcJ68bsGaAES9VjP-jYyaVsMPbJz4XJnUXyKm8TtsgZ76uZ1Q&q=pink+mall+illustration&sa=X&ved=2ahUKEwin8--5geyUAxUgmisGHbDWKnQQtKgLegQIExAB&biw=1440&bih=812&dpr=2#sv=CAMSWBoyKhBlLXM1bnMyZFZKT2p1eE1NMg5zNW5zMmRWSk9qdXhNTToOV01CVVVIZ2ZsQURoak0gBCocCgZtb3NhaWMSEGUtczVuczJkVkpPanV4TU0YADABOAAYByCrzcLCBToASggQARgBIAEoAQ
