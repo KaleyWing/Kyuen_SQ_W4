@@ -6,7 +6,7 @@
 
 To run the sketch locally, open `index.html` in Google Chrome using Live Server.
 
-Click **Rock**, **Paper**, or **Scissors** to play a round against the NPC blob. Click **Play Again** to reset.
+Click **Rock**, **Paper**, or **Scissors** to play a round against the NPC. Click **Play Again** to reset.
 
 **Opening the Chrome Console**
 

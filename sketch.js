@@ -2,8 +2,6 @@
 // sketch.js: p5.js Entry Point
 // ============================================================
 
-let blobT = 0; // animation timer for Lily's blob
-
 // ============================================================
 // setup() — runs once
 // ============================================================
@@ -19,25 +17,12 @@ function draw() {
   // drawBackground() is in scenes.js
   drawBackground();
 
-  // Draw Lily (the player's blob) — top right corner, small
-  drawBlob(width - 60, 60, 30, color(255, 180, 210), blobT);
-
-  // Label under Lily
-  fill(255, 200, 230);
-  noStroke();
-  textAlign(CENTER);
-  textSize(11);
-  text("Lily", width - 60, 100);
-
   // getCurrentScene() is in game.js — returns the right scene object
   let scene = getCurrentScene();
 
   // drawStoryPanel() and drawChoiceButtons() are in scenes.js
   drawStoryPanel(scene);
   drawChoiceButtons(scene);
-
-  // Advance blob wobble
-  blobT += 0.015;
 }
 
 // ============================================================

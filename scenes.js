@@ -17,30 +17,6 @@ function drawBackground() {
 }
 
 // ------------------------------------------------------------
-// drawBlob(x, y, r, col, t)
-// Wobbling blob character. Same as the original RPS version.
-// ------------------------------------------------------------
-function drawBlob(x, y, r, col, t) {
-  push();
-  fill(col);
-  noStroke();
-  beginShape();
-  let numPoints = 48;
-  for (let i = 0; i < numPoints; i++) {
-    let angle = (TWO_PI / numPoints) * i;
-    let noiseVal = noise(cos(angle) * 0.8 + t, sin(angle) * 0.8 + t);
-    let nr = r + map(noiseVal, 0, 1, -8, 8);
-    vertex(x + cos(angle) * nr, y + sin(angle) * nr);
-  }
-  endShape(CLOSE);
-  // Eyes
-  fill(10);
-  ellipse(x - 9, y - 7, 8, 8);
-  ellipse(x + 9, y - 7, 8, 8);
-  pop();
-}
-
-// ------------------------------------------------------------
 // drawStoryPanel(scene)
 // Draws the white card with the scene title and body text.
 // scene is the object returned by getCurrentScene() in game.js.
