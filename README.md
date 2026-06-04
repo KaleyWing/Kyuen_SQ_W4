@@ -17,7 +17,7 @@ Click "Play again" on any ending screen to re-play.
 
 | File                                         | Source                                                           |
 | -------------------------------------------- | ---------------------------------------------------------------- |
-| `assets/image/Pink_Mall.webp`   [1]             | Pauliukevich, Window mall stock illustrations — Dreamstime.com   |
+| `assets/image/Pink_Mall.webp`                | [1] Pauliukevich, Window mall stock illustrations — Dreamstime.com   |
 
 ## References
 
