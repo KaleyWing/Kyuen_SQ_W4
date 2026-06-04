@@ -2,7 +2,7 @@
 
 ## Setup and Interaction Instructions
 
-To run the sketch locally:
+To run the sketch:
 Open `index.html` in Google Chrome using Live Server.
 Open index.html in a browser (or run a local server with VS Code
 Live Server, Python's http.server, etc.).
